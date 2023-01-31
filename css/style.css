@@ -11,14 +11,14 @@ body {
     background-color: #f6f8f9;
 }
 
-
 #app-main {
     line-height: 2rem;
 }
 
 /* utilities selector */
 section {
-    margin-bottom: 30px;
+   
+    padding: 20px 0 20px 50px;
 } 
 .button-font {
     padding: 5px 10px;
@@ -64,9 +64,8 @@ section {
 
 
 #app-header>img {
-    position: relative;
-    top: 10px;
-    left: 10px;
+    vertical-align: middle;
+    margin-left: 10px;
 
 }
 
@@ -75,6 +74,7 @@ section {
     font-weight: bold;
     margin-left: 20px;
     line-height: 80px;
+    vertical-align: middle;
     display: inline-block;
     height: 80px;
 
@@ -128,6 +128,15 @@ section {
     background-color: #f29e33;
 }
 
+.website {
+    background-color: #d863a1;
+
+}
+.sales {
+    background-color: #b0c926;
+
+}
+
 /* info ok and not ok */
 .symbol-ok {
     color: #61bea6;
@@ -136,6 +145,7 @@ section {
 #symbol-nok {
     color: red;
     font-size: 12px;
+    font-weight: bold;
 }
 #red-circle {
     border-color: red;
