@@ -1,3 +1,5 @@
+/* general selector */
+
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +10,17 @@
 body {
     background-color: #f6f8f9;
 }
+
+/* utilities selector */
+
+.button-font {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* header selector  */
 
 #app-header {
     background-color: white;
@@ -31,5 +44,30 @@ body {
     display: inline-block;
     height: 80px;
 
+}
 
+/* main selector */
+
+#app-main {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+
+.container-button {
+    margin-top: 40px;
+    padding: 20px 0 20px 50px;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+.add-task {
+background-color: #47adf1;
+border: none;
+color: white;
+}
+
+.add-section {
+    border-color: #ced3d7;
+    color: #ced3d7;
+    background-color: white;
 }
